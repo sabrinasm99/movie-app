@@ -1,0 +1,4 @@
+.bg-profile {
+  @apply rounded-md p-1 h-1/2;
+  background: linear-gradient(to right, #ffd154, #ffbc03);
+}

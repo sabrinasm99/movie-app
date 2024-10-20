@@ -1,0 +1,22 @@
+.header {
+  @apply bg-blue-900 py-4 flex relative z-10;
+}
+
+.header-sticky {
+  @apply sticky top-0 bg-blue-900 py-4 flex z-10 opacity-95;
+  animation: slideDown 0.35s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.btn-login {
+  @apply text-blue-900 rounded-md py-1 px-2;
+  background: linear-gradient(to right, #ffd154, #ffbc03);
+}

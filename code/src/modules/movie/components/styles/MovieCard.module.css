@@ -1,0 +1,4 @@
+.favorite-container {
+  @apply absolute top-0 right-0 rounded-bl-md rounded-tr-md p-1;
+  background: linear-gradient(to right, #fae19d, #ffd154);
+}

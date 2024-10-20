@@ -1,0 +1,7 @@
+.btn-submit {
+  @apply mt-7 text-center w-full rounded-lg py-2 text-blue-900 font-medium tracking-wide;
+  background: linear-gradient(to right, #ffd154, #ffbc03);
+}
+.btn-guest {
+  @apply text-center w-full rounded-lg py-2 font-medium tracking-wide bg-blue-900 text-white;
+}
