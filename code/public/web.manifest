@@ -1,0 +1,24 @@
+{
+  "name": "Movie App",
+  "short_name": "MovieApp",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "id": "MovieApp",
+  "display": "standalone",
+  "description": "Hello, it's Movie App",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "movie_icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "movie_icon.png",
+      "type": "image/png"
+    }
+  ]
+}

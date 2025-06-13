@@ -1,5 +1,6 @@
 const isProduction = import.meta.env.VITE_ENV === "production";
-const devUrl = "http://localhost:3000";
+const { protocol, hostname, port } = window.location;
+const devUrl = `${protocol}//${hostname}:${port}`;
 const productionUrl = "https://sabrina-movie-app.netlify.app";
 
 export const apiConfig = {
